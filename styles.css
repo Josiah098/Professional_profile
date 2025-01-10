@@ -1,0 +1,75 @@
+.container{
+    max-width: 840px;
+    margin: 0 auto;
+}
+.intro{
+    text-align: center;
+}
+.intro img{
+    border-radius: 100%;
+    max-width: 100px;
+    height: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.grid1, .grid2  {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.grid-content {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin-left: 0;
+}
+
+.Portfolio {
+    text-align: center;
+}
+.portgrid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 30px;
+}
+
+@media (maxwidth: 650px){
+    .portgrid{
+        grid-template-columns: 100%;
+    }
+}
+
+@media (maxwidth: 480px){
+    .grid{
+        grid-template-columns: 100%;
+    }
+}
+
+.footerr{
+    display: flex;
+    justify-content: space-between;
+}
+.left_side{
+    text-align: center;
+
+}
+
+.button_submit{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
